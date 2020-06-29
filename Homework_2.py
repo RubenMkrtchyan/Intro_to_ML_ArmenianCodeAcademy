@@ -68,17 +68,17 @@ print(my_fib(-4))
 # ## Problem 4
 # 
 
-# In[ ]:
+# In[3]:
 
 
 class Person:
-    def __init__(self, name, last_name, age, gender, student, __password):
+    def __init__(self, name, last_name, age, gender, student, password):
         self.name = name
         self.last_name = last_name
         self.age = age
         self.gender = gender
         self.student = student
-        self.__password = __password
+        self.__password = password
         
     def Greetings(self, second_person):
         print("Welcome dear", second_person.name)
@@ -105,8 +105,7 @@ std_2 = Person("Hayk", "khachatryan", 33, "male", False, "abcdefg123")
 std_1.Greetings(std_2)
 std_1.Goodbye()
 std_2.Favourite_num(8)
-std_1.Read_file("text")
-std_2.set_password("Hayk33")
+std_2.set_password("haykhaykhayk")
 std_2.get_password()
 
 
